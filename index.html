@@ -1,24 +1,147 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home Sweet Loan</title>
+    <title>The Real Deal Estate</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='CSS\styles.css'>
-    <script src='main.js'></script>
+    <script src='JavaScript\slideshow.js'></script>
 </head>
 <body>
     <header>
-
+        <h1>Real Deal Estate</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="listings.html">Listings</a>
+            <a href="agents.html">Our Agents</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
-    <main>
+    <section class="promotion">
+        <h2>Find Your Dream Home Today!</h2>
+    </section>
 
+    <section class="search">
+        <h3>Search Properties</h3>
+        <form>
+            <select>
+                <option>Any Type</option>
+                <option>House</option>
+                <option>Apartment</option>
+                <option>Condo</option>
+                <option>Land</option>
+            </select>
+            <input type="number" placeholder="Min Price">
+            <input type="number" placeholder="Max Price">
+            <input type="button" value="Search">
+        </form>
+    </section>
+
+    <main>
+        <section class="featured-listings">
+            <h1>Featured Listings</h1>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="Images\Beautiful Family Home.jpeg" alt="Beautiful Family Home">
+                        <div class="text-overlay">
+                        <p>Beautiful Family Home</p>
+                        <p>4 bed, 3 bath | $450,000</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="Images\Ikonic.jpg" alt="Modern City Apartment">
+                        <div class="text-overlay">
+                        <p>Modern City Apartment</p>
+                        <p>2 bed, 2 bath | $300,000</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="Images\Sierra-68.jpg" alt="Luxury Condo">
+                        <div class="text-overlay">
+                        <p>Luxury Condo with Ocean View</p>
+                        <p>3 bed, 2 bath | $550,000</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="Images\Suburban Family Home.jpg" alt="Suburban Family Home">
+                        <div class="text-overlay">
+                        <p>Spacious Suburban Home</p>
+                        <p>5 bed, 4 bath | $650,000</p>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </section>
+
+        <section class="testimonials">
+            <h5>Client Testimonials</h5>
+            <ul>
+                <li>
+                    <p>Real Deal Estate made finding our dream home a breeze. Their expertise and dedication are unmatched in the industry. We couldn't be happier with our new home!</p>
+                    <img src="Images\Testimonial_imgs\img1.jpg" alt="John and Jane Doe">
+                    <p>John and Jane Doe</p>
+                </li>
+                <li>
+                    <p>As first-time homebuyers, we were nervous about the process. The team at Real Deal Estate guided us every step of the way, making it a smooth and enjoyable experience.</p>
+                    <img src="Images\Testimonial_imgs\img3.jpg" alt="Sarah Smith">
+                    <p>Sarah Smith</p>
+                </li>
+                <li>
+                    <p>We've bought and sold several properties with Real Deal Estate over the years. Their market knowledge and negotiation skills are top-notch. Highly recommended!</p>
+                    <img src="Images\Testimonial_imgs\img5.jpg" alt="Michael Johnson">
+                    <p>Michael Johnson</p>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <footer>
-        
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>123 Real Estate Street</p>
+                <p>Cityville, State 12345</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@realdealestate.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listings.html">Listings</a></li>
+                    <li><a href="agents.html">Our Agents</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Real Deal Estate. All rights reserved.</p>
+        </div>
     </footer>
 </body>
+
 </html>
+

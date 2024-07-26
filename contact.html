@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Real Deal Estate</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+    <script src="JavaScript/contact.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Real Deal Estate</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="listings.html">Listings</a>
+            <a href="agents.html">Our Agents</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>We're here to help with all your real estate needs</p>
+        </section>
+
+        <section class="contact-info">
+            <div class="info-card">
+                <h2>Visit Us</h2>
+                <p>123 Real Estate Street</p>
+                <p>Cityville, State 12345</p>
+            </div>
+            <div class="info-card">
+                <h2>Call Us</h2>
+                <p>Phone: (123) 456-7890</p>
+                <p>Fax: (123) 456-7891</p>
+            </div>
+            <div class="info-card">
+                <h2>Email Us</h2>
+                <p>info@realdealestate.com</p>
+                <p>support@realdealestate.com</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="property">Property Information</option>
+                        <option value="appointment">Schedule Appointment</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="map">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1845100428946!2d-73.98623908459173!3d40.74844097932789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1628716433286!5m2!1sen!2sus" 
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>123 Real Estate Street</p>
+                <p>Cityville, State 12345</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@realdealestate.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listings.html">Listings</a></li>
+                    <li><a href="agents.html">Our Agents</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Real Deal Estate. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

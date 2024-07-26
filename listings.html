@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listings - Real Deal Estate</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/listings.css">
+</head>
+<body>
+    <header>
+        <h1>Real Deal Estate</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="listings.html">Listings</a>
+            <a href="agents.html">Our Agents</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="listings-hero">
+            <h1>Our Property Listings</h1>
+        </section>
+
+        <section class="search-filters">
+            <h2>Filter Properties</h2>
+            <form>
+                <select name="property-type">
+                    <option value="">Any Type</option>
+                    <option value="house">House</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="condo">Condo</option>
+                    <option value="land">Land</option>
+                </select>
+                <input type="number" name="min-price" placeholder="Min Price">
+                <input type="number" name="max-price" placeholder="Max Price">
+                <input type="number" name="bedrooms" placeholder="Bedrooms">
+                <input type="number" name="bathrooms" placeholder="Bathrooms">
+                <button type="submit">Apply Filters</button>
+            </form>
+        </section>
+
+        <section class="property-listings">
+            <div class="property-card">
+                <img src="Images\Beautiful Family Home.jpeg" alt="Beautiful Family Home">
+                <h3>Beautiful Family Home</h3>
+                <p class="price">$450,000</p>
+                <p class="details">4 bed | 3 bath | 2,500 sq ft</p>
+                <p class="location">123 Main Street , Anytown, USA</p>
+                <a href="#" class="view-details">View Details</a>
+            </div>
+
+            <div class="property-card">
+                <img src="Images\Ikonic.jpg" alt="Modern City Apartment">
+                <h3>Modern City Apartment</h3>
+                <p class="price">$300,000</p>
+                <p class="details">2 bed | 2 bath | 1,200 sq ft</p>
+                <p class="location">456 Downtown Ave, Metropolis, USA</p>
+                <a href="#" class="view-details">View Details</a>
+            </div>
+
+            <div class="property-card">
+                <img src="Images\Sierra-68.jpg" alt="Luxury Condo with Ocean View">
+                <h3>Luxury Condo Ocean </h3>
+                <p class="price">$550,000</p>
+                <p class="details">3 bed | 2 bath | 1,800 sq ft</p>
+                <p class="location">789 Oceanfront Blvd, Beachtown, USA</p>
+                <a href="#" class="view-details">View Details</a>
+            </div>
+
+            <div class="property-card">
+                <img src="Images\Suburban Family Home.jpg" alt="Spacious Suburban Home">
+                <h3>Spacious Suburban Home</h3>
+                <p class="price">$650,000</p>
+                <p class="details">5 bed | 4 bath | 3,500 sq ft</p>
+                <p class="location">101 Maple Dr, Suburbs, USA</p>
+                <a href="#" class="view-details">View Details</a>
+            </div>
+
+        </section>
+
+        <div class="pagination">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Next</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>123 Real Estate Street</p>
+                <p>Cityville, State 12345</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@realdealestate.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listings.html">Listings</a></li>
+                    <li><a href="agents.html">Our Agents</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Real Deal Estate. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
