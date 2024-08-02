@@ -239,6 +239,7 @@
     gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
+    list-style-type: none;
   }
   
   .testimonials li {
@@ -261,6 +262,7 @@
     background-color: var(--primary-color);
     color: white;
     padding: 3rem 0 0;
+    
   }
   
   .footer-content {
@@ -275,6 +277,7 @@
   .footer-section {
     flex: 1;
     min-width: 200px;
+    
   }
   
   .footer-section h3 {
